@@ -7,5 +7,4 @@ end
 
 myString = "Hello, how are you?"
 
-reverse_each_word(myString
-)
+reverse_each_word(myString)
