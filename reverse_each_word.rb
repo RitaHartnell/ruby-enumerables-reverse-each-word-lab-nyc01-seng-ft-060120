@@ -4,3 +4,5 @@ def reverse_each_word(string)
   p array
 
 end
+
+myString = "Hello, how are you?"
