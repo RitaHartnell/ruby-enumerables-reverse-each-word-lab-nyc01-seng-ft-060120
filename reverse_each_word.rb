@@ -1,14 +1,13 @@
 def reverse_each_word(string)
   #turn the string into an array, then use collect on it to enumerate through the string
   array = string.split(' ')
-  p array
+  #p array <= testing p statement
   array.collect {|word|
     word.reverse!
   }
-  p array
-
+  array
 end
 
-myString = "Hello, how are you?"
+#myString = "Hello, how are you?"
 
-reverse_each_word(myString)
+#reverse_each_word(myString)
