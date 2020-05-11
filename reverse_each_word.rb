@@ -5,7 +5,7 @@ def reverse_each_word(string)
   array.collect {|word|
     word.reverse!
   }
-  array
+  array.join(" ")
 end
 
 #myString = "Hello, how are you?"
