@@ -6,6 +6,7 @@ def reverse_each_word(string)
     word.reverse!
   }
   array.join(" ")
+
 end
 
 #myString = "Hello, how are you?"
