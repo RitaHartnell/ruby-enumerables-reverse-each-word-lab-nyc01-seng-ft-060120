@@ -6,3 +6,6 @@ def reverse_each_word(string)
 end
 
 myString = "Hello, how are you?"
+
+reverse_each_word(myString
+)
